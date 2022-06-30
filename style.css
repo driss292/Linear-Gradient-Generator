@@ -1,0 +1,107 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #333;
+}
+
+body .container-couleurs,
+body .container-range,
+body .container-btn {
+  height: auto;
+  width: clamp(300px, 30%, 400px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container-couleurs input,
+body .container-range input,
+body .container-btn input {
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 25px;
+  outline: none;
+  border: 2px solid #f1f1f1;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+body .container-couleurs {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container-btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container-btn button {
+  outline: none;
+  border: none;
+  width: 60px;
+  aspect-ratio: 1/1;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+body .container-btn button img {
+  width: 30px;
+  pointer-events: none;
+}
+
+body .container-btn .random {
+  width: 200px;
+  height: 60px;
+  font-size: 25px;
+}
+
+body .container-btn span {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

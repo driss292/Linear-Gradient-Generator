@@ -8,5 +8,33 @@
         <link rel="stylesheet" href="style.css" />
         <script src="/app.js" defer></script>
     </head>
-    <body></body>
+    <body>
+        <div class="container-couleurs">
+            <input
+                type="text"
+                data-index="1"
+                maxlength="7"
+                class="inp-couleur"
+            />
+            <input
+                type="text"
+                data-index="2"
+                maxlength="7"
+                class="inp-couleur"
+            />
+        </div>
+        <div class="container-range">
+            <input type="range" class="inp-range" />
+        </div>
+        <div class="container-btn">
+            <button class="plus" type="button">
+                <img src="/ressources/plus.svg" alt="icone plus" />
+            </button>
+            <button class="moins" type="button">
+                <img src="/ressources/minus.svg" alt="icone moins" />
+            </button>
+            <button class="random" type="button"><p>Random</p></button>
+        </div>
+        <span></span>
+    </body>
 </html>
